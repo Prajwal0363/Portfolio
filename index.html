@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prajwal | Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div class="bubbles-background"></div>
+    <header>
+        <div class="header-inner">
+            <h1 class="logo">
+                <span>P</span><span>r</span><span>a</span><span>j</span><span>w</span><span>a</span><span>l</span>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showSection('home')" class="nav-item">Home</a></li>
+                    <li><a href="#" onclick="showSection('about')" class="nav-item">About</a></li>
+                    <li><a href="#" onclick="showSection('qualifications')" class="nav-item">Qualifications</a></li>
+                    <li><a href="#" onclick="showSection('skills')" class="nav-item">Skills</a></li>
+                    <li><a href="#" onclick="showSection('projects')" class="nav-item">Projects</a></li>
+                    <li><a href="#" onclick="showSection('contact')" class="nav-item">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="hero">
+                <div class="hero-text">
+                    <img src="c:\Users\pwagh\OneDrive\Desktop\image\WhatsApp Image 2025-04-23 at 14.44.35_a8fcd63f.jpg" alt="Prajwal Profile" class="profile-pic">
+                    <h2 class="title-3d">Prajwal</h2>
+                    <div class="typing-container" id="typed-text"></div>
+                    <div class="visitor-count">Total Visitors: <span id="visitorCount">0</span></div>
+                </div>
+                <div class="hero-background"></div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <button class="back-btn" onclick="showSection('home')">Back to Home</button>
+            <h2 class="section-title typing">About Me</h2>
+            <div class="content-panel">
+                <p class="slide-in">
+                    Hello Friends, i'm Prajwal, and I am currently pursuing a degree in Computer Engineering at MIT Academy of Engineering, Alandi, Pune. I hail from Hingoli, Maharashtra. I have a strong interest in solving mathematical problems and coding, which drives my passion for learning and developing innovative solutions.
+                    I am always eager to learn new technologies and apply my skills to real-world problems. My goal is to grow as a developer and contribute to meaningful projects that create a positive impact.
+                </p>
+            </div>
+        </section>
+
+        <section id="qualifications" class="section">
+            <button class="back-btn" onclick="showSection('home')">Back to Home</button>
+            <h2 class="section-title typing">Qualifications</h2>
+            <div class="content-panel">
+                <ul class="qualifications-list">
+                    <div class="project-card slide-in">
+                        <h3>SSC</h3>
+                        <p>Passout from the School Santabai Munjaji Darade Maddhemik Vidyalay Hingoli (431513) with 72% (2021-22)</p>
+                    </div>
+                    <div class="project-card slide-in">
+                        <h3>HSC</h3>
+                        <p>Passout from the Adarsh college, Hingoli (431513) with 85.17% (2023-24) </p>
+                    </div>
+                    <div class="project-card slide-in">
+                        <h3>Now</h3>
+                        <p>Currently Studing in MIT Academy of Engineering, Alandi, Pune with Computer Engineering Branch</p>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <button class="back-btn" onclick="showSection('home')">Back to Home</button>
+            <h2 class="section-title typing">Skills</h2>
+            <div class="content-panel skills-container">
+                <div class="skill-card slide-in"><span class="lang-symbol">Py</span> Python(90%)<progress value="90" max="100"></progress></div>
+                <div class="skill-card slide-in"><span class="lang-symbol">Js</span> JavaScript(50%)<progress value="50" max="100"></progress></div>
+                <div class="skill-card slide-in"><span class="lang-symbol">Java</span> (70%)<progress value="70" max="100"></progress></div>
+                <div class="skill-card slide-in"><span class="lang-symbol">DL</span> Deep Learning(85%)<progress value="85" max="100"></progress></div>
+                <div class="skill-card slide-in"><span class="lang-symbol">Html</span> (70%)<progress value="70" max="100"></progress></div>
+                <div class="skill-card slide-in"><span class="lang-symbol">CSS</span> (80%)<progress value="90" max="100"></progress></div>
+                <div class="skill-card slide-in"><span class="lang-symbol">C</span> (95%)<progress value="85" max="100"></progress></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <button class="back-btn" onclick="showSection('home')">Back to Home</button>
+            <h2 class="section-title typing">Projects</h2>
+            <div class="content-panel projects-container">
+                <div class="project-card slide-in">
+                    <h3>AI Chatbot System</h3>
+                    <p>Developed an NLP-based chatbot, reducing customer response time by 40%.</p>
+                </div>
+                <div class="project-card slide-in">
+                    <h3>ZEN PLANNER APP</h3>
+                    <p>First-year students often struggle to effectively manage their time and prioritize tasks, leading to increased stress and decreased academic performance. How might we design a practical and engaging system that empowers them to better manage their time and well-being?",chieving 95% accuracy.</p>
+                </div>
+                <div class="project-card slide-in">
+                    <h3>Password Strength Checker</h3>
+                    <p>Developed a user-friendly tool that evaluates the strength of passwords in real-time, helping users create secure and reliable credentials by analyzing length, complexity, and common patterns.</p>
+                </div>
+                <div class="project-card slide-in">
+                    <h3>Water Recycling Project</h3>
+                    <p>Contributed to a project focused on analyzing water usage and proposing efficient recycling methods to promote sustainability.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <button class="back-btn" onclick="showSection('home')">Back to Home</button>
+            <h2 class="section-title typing">Contact</h2>
+            <div class="content-panel">
+                <p class="slide-in">What you want to say!!!!</p>
+                <form class="contact-form" onsubmit="submitForm(event)">
+                    <input type="text" placeholder="Your Name" required class="slide-in">
+                    <input type="email" placeholder="Your Email" required class="slide-in">
+                    <textarea placeholder="Your Message" rows="3" required class="slide-in"></textarea>
+                    <button type="submit" class="slide-in">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p class="slide-in">
+                        <a href="mailto:pwaghmare2024@gmail.com" class="social-link">
+                            <span class="social-icon email-icon"></span> pwaghmare2024@gmail.com
+                        </a>
+                    </p>
+                    <p class="slide-in">
+                        <a href="https://instagram.com/prajyaa363" class="social-link">
+                            <span class="social-icon instagram-icon"></span> @prajyaa363
+                        </a>
+                    </p>
+                    <p class="slide-in">
+                        <a href="https://linkedin.com/in/Prajwal Waghmare" class="social-link">
+                            <span class="social-icon linkedin-icon"></span> linkedin.com/in/Prajwal Waghamre
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Prajwal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
